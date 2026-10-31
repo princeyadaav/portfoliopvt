@@ -68,7 +68,7 @@ function App() {
             <p className="hero-intro">I’m a Computer Science student turning data into insights and building practical AI-powered applications that connect models with real-world products.</p>
             <div className="hero-actions">
               <button className="primary-button" onClick={() => scrollTo('projects')}>Explore my projects <ArrowDown size={16} /></button>
-              <a className="text-button" href={profile.resume || '#contact'}>{externalLinkLabel(profile.resume, 'Download resume')} <Download size={16} /></a>
+              <a className="text-button" href={profile.resume || '#contact'} download={profile.resume ? true : undefined}>{externalLinkLabel(profile.resume, 'Download resume')} <Download size={16} /></a>
             </div>
             <div className="social-row">
               <span className="social-label">Find me on</span>

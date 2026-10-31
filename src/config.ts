@@ -7,7 +7,7 @@ export const profile = {
   email: 'princeyadavji68@gmail.com',
   github: 'https://github.com/princeyadaav',
   linkedin: 'https://www.linkedin.com/in/prince-yadaav/',
-  resume: '',
+  resume: '/Prince_Yadav_Data-analytics_Resume.pdf',
 }
 
 export const externalLinkLabel = (url: string, fallback: string) =>
